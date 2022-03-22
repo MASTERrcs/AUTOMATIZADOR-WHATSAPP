@@ -30,4 +30,4 @@ for number in list:
         run.Enviar(number)
     except Exception as erros:
         run.driver.close()
-        print("ERROS")
+        print(f"{erros}")
